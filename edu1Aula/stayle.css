@@ -1,0 +1,35 @@
+h1{
+    color: rgb(255, 0, 0);
+    
+}
+.text{
+    color: rgb(255, 191, 127);
+}
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-color: black;
+}
+.container{
+    width: 300px;
+}
+input, button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button{
+    background-color: blue;
+    color: rgb(79, 237, 243);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background: #1c50c8;
+}
